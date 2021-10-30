@@ -1,11 +1,26 @@
 {
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvie/typescript-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvie/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/nvie/typescript-playground#readme",
   "devDependencies": {
-    "@types/node": "^16.7.9",
-    "ts-node": "^10.2.1",
-    "typescript": "^4.4.2",
-    "typescript-language-server": "^0.6.2"
+    "typescript": "4.4.4"
   },
   "dependencies": {
-    "itertools": "^1.7.0"
+    "decoders": "1.25.4"
   }
 }
