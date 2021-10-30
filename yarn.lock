@@ -7,6 +7,12 @@ debrief@^1.5.0:
   resolved "https://registry.yarnpkg.com/debrief/-/debrief-1.5.0.tgz#9ee31c4caba651ce87c3a286c455df24f9803f49"
   integrity sha512-3QaFxhEGguXBmBWbnqYOcgdfC7BUu2VQfnT25fs4g9VBHxug+echFCBeVoRw4Nk85GyBkwlKmAS6VzTZEAVnAw==
 
+decoders@../decoders/dist:
+  version "1.25.4"
+  dependencies:
+    debrief "^1.5.0"
+    lemons "^1.4.0"
+
 decoders@1.25.4:
   version "1.25.4"
   resolved "https://registry.yarnpkg.com/decoders/-/decoders-1.25.4.tgz#b82deebb1566a34d136eca79486cb33fb8905da3"
